@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="estilo (1).css">
+</head>
+<body bgcolor="#031634">
+    <nav>
+        <a href="paginainicial (1).html" class="menu-item has-children" aria-haspopup="true">INÍCIO /</a>
+        <a href="cards (1).html" class="menu-item has-children" aria-haspopup="true">CARDS </a>
+        
+  
+      <div class="dropdown">
+        <button class="botao-contato" onclick="toggleMenu()">
+          Trajetória de aprendizagem <span class="seta">&#9650;</span>
+        </button>
+        <div class="menu-opcoes" id="menuContato">
+          <a href="trajetoriadeaprendizagem (1).html">TRAJETÓRIA DE APRENDIZAGEM</a>
+          <a href="iniciodetudo (1).html">INICIO DE TUDO</a>
+          <a href="paginaHTML (1).html">HTML</a>
+          <a href="paginaHTMLPLUS (1).html">HTML PLUS</a>
+          <a href="paginaCSS (1).html">CSS</a>
+          <a href="paginaCSSPLUS (1).html">CSS PLUS </a>
+          <a href="paginaJAVASCRIPT (1).html">JAVASCRIPT</a>
+          <a href="paginaJAVASCRIPTPLUS (1).html">JAVASCRIPT PLUS </a>
+        </div>  
+      </div>
+  
+      <script>
+        function toggleMenu() {
+          const menu = document.getElementById("menuContato");
+          menu.classList.toggle("mostrar");
+        }
+  
+        // Fecha o menu se clicar fora dele
+        window.onclick = function(event) {
+          if (!event.target.matches('.botao-contato, .botao-contato *')) {
+            const menu = document.getElementById("menuContato");
+            if (menu.classList.contains('mostrar')) {
+              menu.classList.remove('mostrar');
+            }
+          }
+        }
+      </script>
+    </nav>
+    <h1>AGORA VAMOS ESTUDAR OUTRO TIPO DE LINGUAGEM: <br> <strong> CSS </strong> </h1>
+      <h2 class="h2"> Cascading Style Sheet ou CSS 
+      é uma linguagem de programação para 
+      organizar melhor o estilo das páginas,
+      ou seja, seu visual, e tem um mecânismo
+      simples para adicionar estilo (fonte, cores,
+      espaçamentos, bordas, etc.)
+
+        <br>
+        <br>
+        <br>
+
+        O CSS é um Web Standard: Um conjunto de normas,
+        detrizes, recomendações produzidos pelo W3C
+        e destinados a orientar desenvolvedores para o
+        uso de práticas que possibilitem a criação de uma
+        Web acessível para todos 
+      </h2>
+
+      <center><img src="imagens da pagina CSS/7da0574f943d245723f512620b4e3c51-removebg-preview.png" width="300px"></center>
+
+      <br>
+      <br>
+
+      <h1> REGRA CSS: </h1>
+
+      <br>
+      <br>
+
+      <center><h2 class="h2"> A regra do CSS é composta por duas partes:
+      seletor e declaração.</h2>
+      
+      <br>
+      <br>
+
+      <h2 id="Regracss" class="h2">
+        SELETOR {PROPRIEDADE: VALOR;}</h2>
+      <br>
+      <h4>Seletor: Alvo da regra de estilo;
+      <br> Declaração: Propriedade e valor;
+      <br> Propriedade: Define o que será estilizado;
+      <br> Valor: Define o quanto o como será estilizado.
+      </h4></center>
+
+
+      <br>
+      <br>
+      <br>
+
+
+      <h2 class="h2"> • A Declaração deve ser colocada obrigatóriamente entre
+      sinais de chave {}. <br>
+       • O sinal de dois pontos (:) na declaração, separa a propriedade
+      do seu respectivo valor.
+      </h2>
+
+      <br>
+      
+      <center><img src="imagens da pagina CSS/exemplo1 CSS.png" alt="imagem exemplo de uma regra do CSS externo"></center>
+
+      <br>
+
+      <h2 class="h2">Neste caso, o código irá deixar a tag p com 20 pixels de tamanho,
+      caso mais uma declaração venha a ser feita, usamos ponto e vírgula (;) para
+      repará-las
+      </h2>
+
+
+      <br>
+      <br>
+      <br>
+
+
+      <h2 class="h2">Sobre o valor, precisamos ressaltar sobre algo muito importante:
+      quando há mais de duas palavras sem hífem (-), utilizamos as aspas (""),
+      caso o valor contenha mais de duas palavras mas são separadas por hífem (-),
+      não são utilizadas aspas ("")
+      </h2>
+      <br>
+
+        <center><img src="imagens da pagina CSS/exemplo CSS.png" alt="exemplo CSS">
+        <img src="imagens da pagina CSS/exemplo CSS (2).png" alt="exemplo CSS (2) "></center>
+
+      <br>
+      <br>
+      <br>
+
+      <h1>FOLHAS DE ESTILO</h1>
+
+      <br>
+
+      <center><h2 class="h2">Existem 3 formas de declaração de folhas de estilo: Local,
+      incorporada e externa.
+      </h2>
+
+      <br>
+
+      <h2 class="h2"> • Local(inline): É colocado o atributo "style" dentro da tag do elemento de marcação;
+        <br>
+        <br>
+        <img src="imagens da pagina CSS/exemplo CSS local.png" alt="exemplo CSS local">
+        <br> 
+        <br>
+      • Incorporada(embedded): É colocado a tag "style" dentro do elemento "head";
+        <br> 
+        <br>
+        <img src="imagens da pagina CSS/exemplo CSS incorporado.png" alt="exemplo CSS incorporado">
+        <br>
+        <br>
+      • Externa(linked): Em um arquivo externo com extensão ".css" e são "linkadas"
+      por meio de um link no elemento "head", sendo o link: "link rel:stylesheet href:'estilo.css'"
+      (sendo "estilo.css" o nome da pasta do css externo).
+        <br>
+        <br>
+        <img src="imagens da pagina CSS/exemplo CSS externo1.png" alt="exemplo CSS externo 1">
+        <img src="imagens da pagina CSS/exemplo externo CSS 2.png" alt="exemplo CSS externo 2">
+        <img src="imagens da pagina CSS/exemplo externo CSS 3.png" alt="exemplo CSS externo 3">
+      </h2></center>
+      <br>
+
+      <h1> PROPRIEDADES DO CSS</h1><br>
+          <h3>Propriedades de texto:</h3>
+              <h4> -> font-family: Define a fonte, permitindo uma lista de fontes de fallback (ex: font-family: Arial, sans-serif;).<br>
+                   -> font-size: Controla o tamanho do texto, usando unidades como px, em ou %.<br>
+                   -> font-weight: Define o peso da fonte, com valores como normal, bold, ou numéricos de 100 a 900.<br>
+                   -> font-style: Define o estilo, como normal,oblique ou italic.<br>
+                   -> color:Especifica a cor do texto,pode ser aplicada da mesma forma que a representação do padrão RGB e suas diversas possibilidades. <br>
+                         💡CASO NÃO LEMBRE VOLTE A PÁGINA DE HTML. <br>
+                   -> text-decoration: Permite especificar uma decoração para o texto.
+                                  • Com valores: none, underline, overline, line-through<br>
+                                  (Obs: Mais de 1 valor pode ser usado).<br>
+                  <center><img src="imagens da pagina CSS/propriedades de texto CSS.png" alt="exemplo de propriedade de texto CSS"></center>
+                  <br>
+                   -> text-transform: Controla efeitos de capitalização do texto, com valores: uppercase, lowercase, capitalize. <br>
+                   -> text-align: Controla o posicionamento horizontal do conteúdo,com valores: left, right, center, justify. <br>
+                   -> text-indent: Define a identação para  a primeira linha de um texto contida em um bloco. <br>
+                   -> line-height: Permite especificar a altura de uma linha de texto. <br>
+                   -> letter-spacing: Permite especificar o espaçamento entre letras de texto. <br>
+                   -> word-spacing: Permite especificar o espaçamento entre palavras do texto. <br>
+                   -> Fontes Seguras: Conjunto de Fontes comuns aos sistemas operacionais mais usados.<br>
+                           <center><img src="imagens da pagina CSS/fontes de textoCSS.png" alt="fontes de texto seguras CSS"> <br></center>
+                   <h2 class="h2">💡Informações Importantes: <br>
+                            • Quando for usar uma fonte cujo nome tem mais de uma palavra, coloque o nome entre aspas.<br>
+                            Exemplo: "Times New Roman" <br>
+                            • Ao definir várias fontes na propriedade font-family, termine indicando uma família genérica.<br>
+                            Exemplo: serif</h2> <br>                
+                  <h4>💡💡font: Uma propriedade de atalho para definir várias propriedades de fonte de uma vez, como font: italic 13px fantasy; 💡💡
+                  </h4> <br>
+
+                   <h3>BORDAS</h3>
+                     <h4>As caracteristicas das bordas podem não ser empregadas para tabelas,também para cabeçalhos,cards,caixa de texto,imagens ,etc.<br>
+                        -> border-width: Permite especificar a largura da borda. <br>
+                             • Os seus valores em px, porcentagem, thin, medium, thick, etc. <br>
+                        -> border-style: Permite especificar um estilo para borda. <br>
+                             • Os seus possíveis valores : none, dotted, dashed, solid, groove, double, rigde. <br>
+                        -> border-color: Permite especificar uma cor para borda. 
+                        -> 💡é possível aplicar uma borda apenas em um dos lados de um elemento específico.<br>
+                                Os lados podem ser definidos da seguinte forma:<br>
+                                      • top – parte superior<br>
+                                      • bottom – parte inferior<br>
+                                      • left – lado esquerdo<br>
+                                      • right – lado direito💡<br>
+                            <img src="imagens da pagina CSS/exemplo de borda CSS.png" alt="exemplo de borda CSS"> Essa borda é apenas do lado esquerdo do P e terá uma borda verde trascejada.
+                      </h4>
+
+                  <center><h2 class="h2">Agora iremos aprender sobre ID,DIV,PSEUDO-CLASSES</h2>   
+                     <h3>Atributo Id</h3>
+                       <h4>Este atributo tem objetivo de identificar unicamente um elemento.</h4> 
+                              <img src="imagens da pagina CSS/representaçao ID 1.png" alt="exemplo da representação do ID."> <br>
+                              <img src="imagens da pagina CSS/Representaçao ID 2.png" alt="exemplo da representação do ID no CSS externo">
+
+                     <h3> Qualquer texto que você digitar dentro da tag H6 será definido pelo tamanho da fonte 40px e na cor #995964.</h3><br>
+
+
+                     <h2 class="h2">Diferentes casos:</h2>
+                      <h3>Cada seletor tem um nível diferente de especificidade:
+
+                        <img src="imagens da pagina CSS/exemplos de diferentes casos ID.png" alt="exemplo de diferentes casos do ID"><br>
+
+                        • .borboleta → aplica o estilo a todos os elementos com a classe "borboleta".
+
+                        • #borboleta → aplica apenas ao elemento com o ID "borboleta" (tem prioridade maior que a classe).
+
+                        • p.borboleta → estiliza apenas parágrafos (<p>) que têm a classe "borboleta".
+
+                        • p#borboleta → estiliza apenas o parágrafo <p> com o ID "borboleta" (é o mais específico de todos).
+
+                        👉 Em resumo: ID > classe(Nomes usados para agrupar elementos que terão o mesmo estilo no CSS,<br>
+                        são definidas em HTML com class="nome" e chamadas no CSS com um ponto (.),<br>
+                        servem para reutilizar estilos em vários elementos.) > elemento, e quanto mais específico o seletor, maior a prioridade no CSS.</h3> </center>
+
+                      <center><h2>Pseudoclasses:</h2></center> <br> 
+                            <center><img src="imagens da pagina CSS/Pseudoclasses conceito e exemplos 1.png" alt="Pseudoclasses conceito e exemplos"><br></center>
+                      
+                      <h2 class="h2">Modelo de Caixa</h2> 
+                        <h3>O modelo de caixa é um conceito fundamental do CSS que define como os elementos de uma página são <br>
+                          exibidos e organizados visualmente. Todo elemento de bloco <br>
+                           (como "div", "p", "section", etc. TODAS AS TAGS DEVEM ESTAR DENTRO DE < >) é tratado como uma caixa, composta por quatro camadas principais:</h3> <br>
+                           <h4>🧩 1. Conteúdo (Content):
+                                É a área onde o texto, imagens ou outros elementos aparecem. Representa o espaço principal do elemento, definido por propriedades como width e height.<br>
+                               📦 2. Preenchimento (Padding):
+                                Cria um espaço interno entre o conteúdo e a borda da caixa. O padding aumenta o tamanho total do elemento, sem alterar a posição de outros elementos.<br>
+                               🔲 3. Borda (Border):
+                                Envolve o conteúdo e o padding, servindo como limite visual da caixa. Pode ter espessura, estilo e cor personalizáveis.<br>
+                               ↔️ 4. Margem (Margin):
+                                É o espaço externo entre o elemento e os outros ao seu redor. Define o distanciamento entre caixas diferentes na página.<br>
+                               ⚙️ Propriedades principais do Box Model<br>
+                                  • margin: controla o espaço externo.<br>
+                                  • padding: controla o espaço interno.<br>
+                                  • border-width, border-style, border-color: definem a borda.<br>
+                                  • border: combina as três propriedades anteriores.<br>
+                              Essas propriedades podem ser aplicadas individualmente (para cada lado da caixa) ou de forma resumida em uma única linha.<br>
+                              🧠 Dica importante:<br>
+                                  Usar a propriedade box-sizing: border-box; faz com que o tamanho total do elemento (largura e altura) inclua o conteúdo, <br>
+                                  o padding e a borda. Isso facilita o controle do layout e evita cálculos de tamanho complicados. <br>
+                              💬 Conclusão:<br>
+                                  Compreender o modelo de caixa é essencial para dominar o posicionamento, <br>
+                                  o espaçamento e a aparência dos elementos em CSS. Ele é a base para construir layouts organizados, responsivos e visualmente equilibrados.</h4>   
+                                  
+                              <center><h2 class="h2" style="font-size: 60px;">Fluxo e Flutuação:</h2></center> 
+                                  <img src="imagens da pagina CSS/fluxo e flutuaçao 2.png" alt="Mapa mental sobre fluxo e flutuação"> <br>
+                              
+                              <center><h2 class="h2" style="font-size: 60px;">Posicionamento:</h2></center>
+                                  <img src="imagens da pagina CSS/Posicionamento 2.png" alt="mapa sobre posicionamento no CSS"> <br>
+
+                              <center><h2 class="h2" style="font-size: 60px;">APRENDA SOBRE FLEXBOX CSS:</h2></center>
+                                  <center><a style="font-size: 40px;" href="https://youtu.be/KbjLtEgmZ_E?si=Z6nug4JC8t5uFo10">APRENDA AQUI!!!</a></center>  
+
+      <div>
+        <div id="icone2">
+          <a href="paginaHTMLPLUS (1).html"><img src="Imagens das logo da TA (1)/iconeVOLTE.png"></a>
+        </div>      
+        <div id="icone1">
+            <a href="paginaCSSPLUS (1).html"><img src="Imagens das logo da TA (1)/icone avance.png" alt="planeta mercurio"></a>
+        </div>
+      </div>
+
+
+</body>
+</html>

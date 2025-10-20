@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD</title>
+    <link rel="stylesheet" href="estilo (1).css">
+</head>
+<body bgcolor="#320000">
+
+    <nav>
+        <a href="paginainicial (1).html" class="menu-item has-children" aria-haspopup="true">INÍCIO /</a>
+        <a href="cards (1).html" class="menu-item has-children" aria-haspopup="true">CARDS </a>
+        
+  
+      <div class="dropdown">
+        <button class="botao-contato" onclick="toggleMenu()">
+          Trajetória de aprendizagem <span class="seta">&#9650;</span>
+        </button>
+        <div class="menu-opcoes" id="menuContato">
+          <a href="trajetoriadeaprendizagem (1).html">TRAJETÓRIA DE APRENDIZAGEM</a>
+          <a href="iniciodetudo (1).html">INICIO DE TUDO</a>
+          <a href="paginaHTML (1).html">HTML</a>
+          <a href="paginaHTMLPLUS (1).html">HTML PLUS</a>
+          <a href="paginaCSS (1).html">CSS</a>
+          <a href="paginaCSSPLUS (1).html">CSS PLUS </a>
+          <a href="paginaJAVASCRIPT (1).html">JAVASCRIPT</a>
+          <a href="paginaJAVASCRIPTPLUS (1).html">JAVASCRIPT PLUS </a>
+        </div>
+      </div>
+  
+      <script>
+        function toggleMenu() {
+          const menu = document.getElementById("menuContato");
+          menu.classList.toggle("mostrar");
+        }
+  
+        // Fecha o menu se clicar fora dele
+        window.onclick = function(event) {
+          if (!event.target.matches('.botao-contato, .botao-contato *')) {
+            const menu = document.getElementById("menuContato");
+            if (menu.classList.contains('mostrar')) {
+              menu.classList.remove('mostrar');
+            }
+          }
+        }
+      </script>
+    </nav>
+    
+  <div class="container">
+    <div class="player-card highlighted">
+
+            <div id="cabeça">
+               <h2> PLAYER CARD <img src="autoria web-3bimestre (1)/trofeunovo_12543292-removebg-preview (1).png" width="50px" height="40px" alt="imagem de uma taça em formato de trofeu"> </h2>
+            </div>
+
+            <div id="corpoinicial">
+                   <p> LEVEL UP!</p>
+            </div>
+
+
+            <div id="fundogeral">
+            
+            <div id="informaçoes">
+                <img src="autoria web-3bimestre (1)/Gemini_Generated_Image_whrog3whrog3whro (1).png" width="90px" height="100px" >
+
+                <h5 id="classe">NOME: Hélia Câmara</h5>
+                
+                <h5 id="classe">CLASSE: Full Stack</h5> 
+            </div>
+
+            <center><div id="conq">
+                CONQUISTAS DESBLOQUEADAS:
+            </div>
+            <div id="img">
+                <img src="autoria web-3bimestre (1)/Adobe Express tres simbolos- file (1).png" width="230px" height="50px" alt="conjunto de uma estrela,uma medalha e um simbolo de codigo">
+            </div></center>
+    </div>
+  </div>
+
+
+
+  <center><div class="player-card border">
+      <div id="primeira-parte">
+        <p style="font-family:  'Press Start 2P',cursive,monospace; font-size: 20px;
+        text-align: center; background-color: #8ea8c9;
+        border-radius: 20px; margin-top: 30px;
+        height: 76px; color:#303f53;"> PLAYER CARD <img src="player card-VITOR/New Piskel.png" height="50px"> </p>
+      </div>
+
+      <div id="missao">
+        <p>LEVEL UP!</p>
+      </div>
+
+      <div id="fundogeral">
+        <center><table>
+            <tr>
+                <td><div id="avatar">
+                    <img src="player card-VITOR/image-removebg-preview.png" width="113px" height="115px" >
+                </div>
+                </td>
+                <td>
+                <div id="informaçoes">
+                    <h4>NOME: Vitor Gabriel</h4> 
+                    <h4>CLASSE: Full Stack</h4>
+                    <h4>XP: 120 / 300</h4>
+                    <div class="xp">
+                        <div class="progresso" style="width: 40%"></div>
+                    </div>
+                </div>
+                </td>
+            </tr>
+        </table></center>
+      </div>
+      <center><div id="conquistas">
+        <p>CONQUISTAS DESBLOQUEADAS:</p>
+        <img src="player card-VITOR/premios-removebg-preview.png" height="90px">
+      </div></center>
+  </div></center>          
+
+
+    <div>
+        <div id="icone2">
+          <a href="paginainicial (1).html"><img src="Imagens das logo da TA (1)/iconeVOLTE.png"></a>
+        </div>      
+        <div id="icone1">
+            <a href="trajetoriadeaprendizagem (1).html"><img src="Imagens das logo da TA (1)/icone avance.png" alt="planeta mercurio"></a>
+        </div>
+    </div>
+    
+</body>
+</html>

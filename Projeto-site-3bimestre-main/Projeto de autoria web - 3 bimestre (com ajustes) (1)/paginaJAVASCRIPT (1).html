@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT</title>
+    <link rel="stylesheet" href="estilo (1).css">
+</head>
+<body bgcolor="#031634">
+    <nav>
+        <a href="paginainicial (1).html" class="menu-item has-children" aria-haspopup="true">INÍCIO /</a>
+        <a href="cards (1).html" class="menu-item has-children" aria-haspopup="true">CARDS </a>
+        
+  
+      <div class="dropdown">
+        <button class="botao-contato" onclick="toggleMenu()">
+          Trajetória de aprendizagem <span class="seta">&#9650;</span>
+        </button>
+        <div class="menu-opcoes" id="menuContato">
+          <a href="trajetoriadeaprendizagem (1).html">TRAJETÓRIA DE APRENDIZAGEM</a>
+          <a href="iniciodetudo (1).html">INICIO DE TUDO</a>
+          <a href="paginaHTML (1).html">HTML</a>
+          <a href="paginaHTMLPLUS (1).html">HTML PLUS</a>
+          <a href="paginaCSS (1).html">CSS</a>
+          <a href="paginaCSSPLUS (1).html">CSS PLUS </a>
+          <a href="paginaJAVASCRIPT (1).html">JAVASCRIPT</a>
+          <a href="paginaJAVASCRIPTPLUS (1).html">JAVASCRIPT PLUS </a>
+        </div>  
+      </div>
+  
+      <script>
+        function toggleMenu() {
+          const menu = document.getElementById("menuContato");
+          menu.classList.toggle("mostrar");
+        }
+  
+        // Fecha o menu se clicar fora dele
+        window.onclick = function(event) {
+          if (!event.target.matches('.botao-contato, .botao-contato *')) {
+            const menu = document.getElementById("menuContato");
+            if (menu.classList.contains('mostrar')) {
+              menu.classList.remove('mostrar');
+            }
+          }
+        }
+      </script>
+    </nav>
+
+    <h1>POR FIM, IREMOS ESTUDAR JAVASCRIPT:</h1>
+
+    <h2 class="h2">JavaScript (JS) é uma linguagem de programação popular usada principalmente para adicionar <br>
+      interatividade e dinamismo a páginas da web, tornando-as mais do que apenas documentos estáticos.</h2>
+      <br>
+    <center><img src="imagens da pagina JAVASCRIPT/simbolo do javascript.png" alt="simbolo JavaScript"></center>
+
+    <h2 class="h2">O JavaScript é a linguagem que torna a web interativa, 
+      sendo essencial para o desenvolvimento Front-end e, graças ao Node.js, também Back-end.<br>
+    O que é o NODE.JS? <br>
+            • É um ambiente de runtime JavaScript de código aberto e multiplataforma <br>
+            que permite executar código JavaScript fora do navegador, como em servidores. </h2>
+          <br>
+          <br>
+        <center><img src="imagens da pagina JAVASCRIPT/Node.js_logo.svg.png" alt="imagem do NODE.JS"></center>
+        <br>
+        <br>
+
+    <h2 class="h2">1-Fundamentos da linguagem</h2>
+    <h3>Variáveis e Tipos: <br>
+         -> Declaração: Use const (para valores que não mudam) e let (para variáveis que serão reatribuídas). Evite var. <br>
+
+         -> Tipos Primitivos: String, Number, Boolean, null, undefined, Symbol. <br>
+
+         -> Tipos Complexos: Object (que inclui Array e Function). <br>
+
+         -> Coerção de Tipos: JS é fracamente tipada. Prefira sempre os operadores de comparação estrita (=== e !==) para evitar conversões automáticas inesperadas (que ocorrem com ==). <br>
+
+          Funções: <br>
+         -> São blocos de código reutilizáveis. <br>
+         -> Arrow Functions (ES6): Sintaxe concisa (const func = () => {}) muito popular, que possui um comportamento lexical diferente para o contexto (this).</h3>
+         
+    <h2 class="h2">2-Estruturas de Dados e Manipulação</h2>
+    <h3>Arrays: <br>
+         -> Coleções ordenadas.  <br>
+
+         -> Métodos Essenciais: <br>
+             • Imutáveis (Funcionais): map() (transforma itens), filter() (seleciona itens), reduce() (combina o array em um único valor). <br>
+             • Mutáveis: push(), pop(), splice(). <br>
+
+          Objetivos: <br>
+         -> Coleções de pares chave-valor, usadas para modelar entidades. <br>
+         -> ES6+: Desestruturação (Destructuring) (const { prop } = obj;) e Spread Operator (...) para clonar ou combinar objetos e arrays de forma limpa.</h3>   
+
+    <h2 class="h2">3-Interação com a página (DOM)</h2>
+    <h3>O DOM (Document Object Model) é a representação em árvore da página HTML. O JavaScript o utiliza para manipular a interface.<br>
+          <a href="https://youtu.be/0buVOT-pBtw?si=WolaNkCYVM9ng0CR">APRENDA MAIS SOBRE DOM!</a> <br>
+         
+         -> Seleção: document.querySelector() e document.querySelectorAll() são os métodos modernos e mais flexíveis, usando seletores CSS.<br>
+
+         -> Eventos: A forma de reagir a ações do usuário. Usa-se elemento.addEventListener('click', minhaFuncao).<br>
+             
+         -> Manipulação: Alterar o conteúdo (.textContent, .innerHTML), atributos (.setAttribute) e estilos (.style.propriedadeCSS).</h3>   
+
+    <h2 class="h2">4-Assincronicidade(O mais crucial)</h2>
+    <h3>Como o JS é single-threaded (executa uma coisa por vez), operações demoradas (como requisições de rede) são executadas de forma assíncrona para evitar travamento da página.<br>
+         -> Promises: Objetos que representam o resultado futuro de uma operação (sucesso ou falha). Usam .then() e .catch(). <br>
+
+         -> Async/Await: Sintaxe moderna (açúcar sintático) sobre Promises. Permite escrever código assíncrono que parece síncrono, melhorando a legibilidade. <br>
+             • async function buscaDados() { ... }<br>
+             • const dados = await fetch('url');<br>
+
+         -> Fetch API: O padrão moderno para fazer requisições HTTP e se comunicar com APIs externas.</h3>
+         <br>
+         <br>
+       <center><img src="imagens da pagina JAVASCRIPT/exemplo de assincronicidade.png" alt="exemplo de 4-Assincronicidade"></center>
+       <br>
+       <br>
+
+    <h2 class="h2">5-Ecossistemas e padrões modernos</h2>
+    <h3>
+         -> Módulos (ES Modules): O sistema import / export para estruturar o código em arquivos separados, facilitando a reutilização e manutenção. <br>
+
+         -> Classes: Sintaxe baseada em protótipos (class MinhaClasse {}) para implementar a Programação Orientada a Objetos (POO).<br>
+
+         -> Programação Funcional: Adoção crescente de funções puras e métodos imutáveis (como map, filter, reduce) para criar código mais previsível e fácil de testar.</h3>   
+
+      <div>
+        <div id="icone2">
+          <a href="paginaCSSPLUS (1).html"><img src="Imagens das logo da TA (1)/iconeVOLTE.png"></a>
+        </div>      
+        <div id="icone1">
+            <a href="paginaJAVASCRIPTPLUS (1).html"><img src="Imagens das logo da TA (1)/icone avance.png" alt="planeta mercurio"></a>
+        </div>
+      </div>
+
+
+</body>
+</html>

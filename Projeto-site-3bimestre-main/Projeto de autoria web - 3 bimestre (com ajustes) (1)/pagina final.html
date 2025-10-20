@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Última página</title>
+    <link rel="stylesheet" href="estilo (1).css">
+</head>
+<body bgcolor="#031634">
+
+  <nav>
+        <a href="paginainicial (1).html" class="menu-item has-children" aria-haspopup="true">INÍCIO /</a>
+        <a href="cards (1).html" class="menu-item has-children" aria-haspopup="true">CARDS </a>
+        
+  
+      <div class="dropdown">
+        <button class="botao-contato" onclick="toggleMenu()">
+          Trajetória de aprendizagem <span class="seta">&#9650;</span>
+        </button>
+        <div class="menu-opcoes" id="menuContato">
+          <a href="trajetoriadeaprendizagem (1).html">TRAJETÓRIA DE APRENDIZAGEM</a>
+          <a href="iniciodetudo (1).html">INICIO DE TUDO</a>
+          <a href="paginaHTML (1).html">HTML</a>
+          <a href="paginaHTMLPLUS (1).html">HTML PLUS</a>
+          <a href="paginaCSS (1).html">CSS</a>
+          <a href="paginaCSSPLUS (1).html">CSS PLUS </a>
+          <a href="paginaJAVASCRIPT (1).html">JAVASCRIPT</a>
+          <a href="paginaJAVASCRIPTPLUS (1).html">JAVASCRIPT PLUS </a>
+        </div>  
+      </div>
+  
+      <script>
+        function toggleMenu() {
+          const menu = document.getElementById("menuContato");
+          menu.classList.toggle("mostrar");
+        }
+  
+        // Fecha o menu se clicar fora dele
+        window.onclick = function(event) {
+          if (!event.target.matches('.botao-contato, .botao-contato *')) {
+            const menu = document.getElementById("menuContato");
+            if (menu.classList.contains('mostrar')) {
+              menu.classList.remove('mostrar');
+            }
+          }
+        }
+      </script>
+    </nav>
+
+
+    <h1> Conseguiu terminar tudo??
+          QUE INCRÍVEL!!!!
+    </h1>
+
+    <h2 class="h2">Espero muito que tenha absorvido com clareza todas
+       as informações passadas e não esqueça de colocar em prática,tá?! </h2>
+
+    <center><h2 class="h2">LEMBRETES FINAIS</h2></center>   
+    <h3 style="text-align: center;">💭 1. Lembre-se por que começou <br>
+      Volte ao motivo que te fez começar. <br>
+      Relembrar o seu "porquê" reacende a motivação. <br> Escreva em um papel o que você quer conquistar <br> e o que isso vai mudar na sua vida. <br>
+
+
+        <br>
+        <br>
+
+        🧩 2. Aceite que o progresso é lento<br>
+           O sucesso raramente é rápido. <br>
+           Mesmo passos pequenos são avanço — o importante é continuar andando. <br> O que parece pouco hoje é o que constrói o seu futuro amanhã.<br>
+        
+          
+        <br>
+        <br>
+
+        🔥 3. Tenha disciplina, não só motivação <br>
+            A motivação vem e vai, mas a disciplina te mantém de pé. <br>
+            Crie rotinas pequenas, fáceis de manter, mesmo nos dias ruins. <br> A constância vence o cansaço. <br>
+
+
+        <br>
+        <br>
+        🧠 5. Aprenda com os erros<br>
+            Errar faz parte do processo.<br>
+            Em vez de desistir, analise o que o erro te ensinou. <br> Cada falha traz uma lição que te aproxima do acerto.</h3>
+
+
+        <br>
+        <br>
+
+        <h1>Lembre-se: O CÉU É O LIMITE, SUCESSO!!!</h1>
+
+        <audio autoplay loop>
+              <source src="" type="audio/mpeg">
+              Seu navegador não suporta o elemento de áudio.
+        </audio>
+        
+        <div>
+        <div id="icone2">
+          <a href="paginaJAVASCRIPTPLUS (1).html"><img src="Imagens das logo da TA (1)/iconeVOLTE.png"></a>
+        </div>
+</body>
+</html>
+
