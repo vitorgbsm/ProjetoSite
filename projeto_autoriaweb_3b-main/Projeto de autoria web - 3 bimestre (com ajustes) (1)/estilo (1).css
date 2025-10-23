@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Days+One&display=swap');
+
+nav {
+  background-color: #b39d72;
+  width: 70%;              
+  margin: 0 auto;           
+  text-align: center;       
+  padding: 15px 285px;         
+  border-radius: 10px;     
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+nav a {
+  color: #f5ebdc;
+  text-decoration: none;
+  margin: 2px;
+  font-size: 25pt;
+  font-weight: bold;
+}
+
+
+.menu-opcoes{
+  background-color: #92815a;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color:rgb(73, 35, 7);
+  width: 100%;
+  font-weight: bold;
+}
+
+
+#frase{
+  background-color: #E8DDCB;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color: #06706e;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+
+h1{
+  font-family: "Caprasimo", serif;
+  font-style: normal;
+  color: #e3e0d6;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  font-size: 48px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #f7f7f7, #005aad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.dropdown {
+  position: relative;
+}
+
+
+.botao-contato {
+  color: #92815a;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 17pt;
+  cursor: pointer;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.3s ease;
+}
+
+
+.botao-contato:hover {
+  background-color: #4b403d;
+}
+
+
+.menu-opcoes {
+  display: none;
+  position: absolute;
+  background-color: #3b3230;
+  border-radius: 10px;
+  margin-top: 5px;
+  min-width: 160px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+
+.menu-opcoes a {
+  color: #995964
+  padding 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.menu-opcoes a:hover {
+  background-color: #4b403d;
+}
+
+
+.mostrar {
+  display: block;
+}
+
+
+#etapas{
+  display: flex;
+  position: relative;
+  bottom: 650px;
+  left: 50px;
+  gap: 20px;
+}
+
+
+.h2{
+  color: #dfcfb2;
+  font-size: 35px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  z-index: -1; 
+  filter: brightness(45%);
+}
+
+
+.conteudo {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+#algoritmos {
+  opacity: 0.4;
+  filter: blur(4px);
+  width: 100%;
+}
+
+
+#Regracss {
+  font-size: 40px;
+}
+
+
+#exemplo1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h4{
+  font-size: 40px;
+  color: white;
+}
+
+#imgprincipal{
+  width: 100%;
+}
+
+
+h3 {
+  color: white;
+  font-size: 35px;
+}
+
+a {
+  color: white;
+  font-size: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#icone1{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  top:20px
+  z-index  1000;
+}
+
+#icone2{
+  position: fixed;
+  bottom: 10px;
+  left:10px;
+  top:20px
+  z-index  1000;
+}
+
+
+#fluxo {
+  width: 100%;
+}
+
+
+#posicionamento {
+  width: 100%;
+}
+
+
+
+
+
+IMAGENS
+
+
+
+
+
+#fronteback {
+  float: right;
+  width: 900px;
+  height: 500px;
+}
+
+
+#httml {
+  float: right;
+  width: 590px;
+}
+
+
+#fullstack {
+  width: 1000px;
+}
+
+
+#simbolo-html {
+  height: 360px;
+}
+
+
+#vscode {
+  float: right;
+  right: 800px;
+} 
+
+
+#html1 {
+  float: right;
+  width: 1000px;
+}
+
+
+#html2 {
+  float: right;
+  width: 800px  ;
+}
+
+
+#html3 {
+  float: right;
+  width: 405px;
+}
+
+
+#html4 {
+  float: right;
+  width: 740px;
+}
+
+
+#html5 {
+  float: right;
+  width: 500px;
+}
+
+
+#formulariohtml {
+  float: right;
+  width: 650px;
+}
+
+
+#color {
+  float: right;
+  width: 950px;
+}
+
+
+#ex-css {
+  width: 600px;
+}

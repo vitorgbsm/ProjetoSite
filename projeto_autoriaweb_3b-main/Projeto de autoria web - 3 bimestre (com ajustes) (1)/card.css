@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Days+One&display=swap');
+
+nav {
+  background-color: #b39d72;
+  width: 70%;              
+  margin: 0 auto;           
+  text-align: center;       
+  padding: 15px 285px;         
+  border-radius: 10px;     
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+nav a {
+  color: #f5ebdc;
+  text-decoration: none;
+  margin: 2px;
+  font-size: 25pt;
+  font-weight: bold;
+}
+
+
+.menu-opcoes{
+  background-color: #92815a;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color:rgb(73, 35, 7);
+  width: 100%;
+  font-weight: bold;
+}
+
+
+.menu-opcoes{
+    background-color: #92815a;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:rgb(73, 35, 7);
+    width: 100%;
+    font-weight: bold;
+}
+
+
+.botao-contato {
+  color: #92815a;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 17pt;
+  cursor: pointer;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.3s ease;
+}
+
+
+.botao-contato:hover {
+  background-color: #4b403d;
+}
+
+
+.menu-opcoes {
+  display: none;
+  position: absolute;
+  background-color: #3b3230;
+  border-radius: 10px;
+  margin-top: 5px;
+  min-width: 160px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+
+.menu-opcoes a {
+  color: #995964
+  padding 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.menu-opcoes a:hover {
+  background-color: #4b403d;
+}
+
+
+.mostrar {
+  display: block;
+}
+
+
+.dropdown {
+    position: relative;
+}
+
+
+
+
+CARD HÉLIA
+
+
+
+
+
+
+.xp-bar {
+  background-color: azure; 
+  border-radius: 5px;
+  margin-top: 15px;
+  height: 25px;
+  width: 80%;
+}
+
+
+.xp-bar-fill {
+  background-color: #D58787;
+  height: 100%;
+  width: 50%; 
+}
+
+
+#conq{
+  font-family: 'Press Start 2P';
+  font-size: 12px;
+  color:#D5A19C;
+}
+
+
+#fundogeral{
+  background-color: #FFFFFF;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+
+#texto1{
+  text-align:left;
+  color:azure;
+  font-family: 'Press Start 2P';
+}
+
+
+#texto2{
+  text-align:right;
+  color:azure;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#cabeça h2{
+  color: azure;
+  font-family: 'Press Start 2P',cursive,monospace;
+  margin: 20px;
+  font-size: 20px;
+  padding: 10px 0;
+  background-color: #D58787;
+  width: 90%;
+  border-radius: 10px;
+}
+
+
+#informaçoes h5{
+  font-size: 13px;
+  font-family:'Press Start 2P',cursive,monospace;
+  color:#D5A19C;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+
+#corpoinicial p{
+  font-family:'Press Start 2P',cursive,monospace;
+  color:#D5A19C;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+.character-card {
+  background-color: #AA4F4F;
+  border-radius: 10px;
+  width: 350px;
+  height: 600px;
+}
+
+
+.highlighted {
+  border: 7px solid #803933;
+  margin: 90px;
+}
+
+
+#classe {
+  color: #D58787;
+  font-family: 'Press Start 2P',cursive,monospace;
+  float: right;
+  width: 239px;
+}
+
+
+.xp1 {
+  background-color: #803933;
+  height: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+
+.progresso1 {
+  background-color: #c46961;
+  height: 100%;
+  border-radius: 5px;
+}
+
+
+a {
+  font-size: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+
+
+
+
+
+
+
+CARD VITOR 
+
+
+
+
+
+
+#primeira-parte p {
+  font-family:  'Press Start 2P',cursive,monospace;
+  font-size: 20px;
+  text-align: center;
+  background-color: #8ea8c9;
+  border-radius: 20px;
+  margin-top: 40px;
+  height: 76px;
+  color:#303f53;
+}
+
+
+#border {
+  border: 10px solid #ffffff;
+  margin: 90px;
+}
+
+
+#missao p {
+  font-family: 'Press Start 2P',cursive,monospace;
+  text-align: center;
+  font-size: 15px;
+  color: #6f829b;
+}
+
+.player-card {
+  background-color: #ffffff;
+  border-radius: 30px;
+  height: 460px;
+  width: 370px;
+  margin-top: 120px;
+}
+
+.xp-bar {
+  background-color: azure; 
+  border-radius: 5px;
+  margin-top: 15px;
+  height: 25px;
+  width: 80%;
+}
+
+.xp-bar-fill {
+  background-color: #87bfd5;
+  height: 100%;
+  width: 50%; 
+}
+
+.progresso {
+  background-color: #005aad;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.xp {
+  background-color: #618cc4;
+  height: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+#informaçoes h4 {
+  font-family: 'Press Start 2P',cursive,monospace;
+  font-size: 10px;
+  color: #6f829b;
+}
+
+#conquistas p {
+  font-family: 'Press Start 2P',cursive,monospace;
+  font-size: 10px;
+  font-weight:bolder;
+  color: #6f829b;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  display: flex;           
+  justify-content: center; 
+  gap: 20px;               
+}
+  
+  
+#icone1{
+  position: fixed;
+  bottom: 10px;
+  right:10px;
+  top:20px
+  z-index  1000;
+}
+
+
+#icone2{
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  top:20px
+  z-index  1000;
+}
