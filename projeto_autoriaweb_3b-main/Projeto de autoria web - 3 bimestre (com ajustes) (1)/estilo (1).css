@@ -234,7 +234,9 @@ IMAGENS
 
 #httml {
   float: right;
-  width: 590px;
+  width: 900px;
+  padding-right: 10px;
+  border-radius: 35px;
 }
 
 
@@ -251,42 +253,62 @@ IMAGENS
 #vscode {
   float: right;
   right: 800px;
+  padding-right: 20px;
+  border-radius: 35px;
 } 
 
 
 #html1 {
   float: right;
   width: 1000px;
+  padding-right: 20px;
+  border-radius: 40px;
 }
 
 
 #html2 {
   float: right;
-  width: 800px  ;
+  width: 800px;
+  padding-right: 20px;
+  border-radius: 40px;
 }
 
 
 #html3 {
   float: right;
   width: 405px;
+  border-radius: 40px;
+  padding-left: 1000px;
+  padding-right: 395px;
 }
 
 
 #html4 {
   float: right;
   width: 740px;
+  padding-right: 20px;
+  border-radius: 40px;
 }
 
 
 #html5 {
   float: right;
   width: 500px;
+  padding-right: 20px;
+  border-radius: 45px;
 }
 
 
 #formulariohtml {
   float: right;
   width: 650px;
+  padding-right: 20px;
+  border-radius: 40px;
+}
+
+
+#htmltres {
+  border-radius: 20px;
 }
 
 
@@ -298,4 +320,22 @@ IMAGENS
 
 #ex-css {
   width: 600px;
+}
+
+
+#div {
+  background-color: #375079;
+  border-radius: 30px;
+}
+
+
+#div1 {
+  background-color: #746748;
+  border-radius: 30px;
+}
+
+
+#div2 {
+  background-color: #205067;
+  border-radius: 30px;
 }
