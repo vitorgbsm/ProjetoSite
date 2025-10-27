@@ -34,7 +34,7 @@
           menu.classList.toggle("mostrar");
         }
   
-        // Fecha o menu se clicar fora dele
+
         window.onclick = function(event) {
           if (!event.target.matches('.botao-contato, .botao-contato *')) {
             const menu = document.getElementById("menuContato");
@@ -45,7 +45,9 @@
         }
       </script>
     </nav>
-    <h1>AGORA VAMOS ESTUDAR OUTRO TIPO DE LINGUAGEM: <br> <strong> CSS </strong> </h1>
+
+    
+    <h1>AGORA VAMOS ESTUDAR OUTRO TIPO DE LINGUAGEM: <br> CSS </h1>
       <h2 class="h2"> Cascading Style Sheet ou CSS 
       é uma linguagem de programação para 
       organizar melhor o estilo das páginas,
@@ -61,7 +63,7 @@
         detrizes, recomendações produzidos pelo W3C
         e destinados a orientar desenvolvedores para o
         uso de práticas que possibilitem a criação de uma
-        Web acessível para todos 
+        Web acessível para todos.
       </h2>
 
       <center><img src="imagens da pagina CSS/7da0574f943d245723f512620b4e3c51-removebg-preview.png" width="300px"></center>
@@ -80,8 +82,7 @@
       <br>
       <br>
 
-      <h2 id="Regracss" class="h2">
-        SELETOR {PROPRIEDADE: VALOR;}</h2>
+      <h1>SELETOR {PROPRIEDADE: VALOR;}</h1>
       <br>
       <h4>Seletor: Alvo da regra de estilo;
       <br> Declaração: Propriedade e valor;
@@ -95,17 +96,28 @@
       <br>
 
 
-      <h2 class="h2"> • A Declaração deve ser colocada obrigatóriamente entre
-      sinais de chave {}. <br>
-       • O sinal de dois pontos (:) na declaração, separa a propriedade
-      do seu respectivo valor.
-      </h2>
+      <div id="div">
+          <br>
+          <br>
+          <br>
+          <img id="exemplo1css" src="imagens da pagina CSS/exemplo1 CSS.png">
 
-      <br>
-      
-      <center><img src="imagens da pagina CSS/exemplo1 CSS.png" alt="imagem exemplo de uma regra do CSS externo"></center>
+          <br>
 
-      <br>
+          <h2 class="h2">
+              • A Declaração deve ser colocada obrigatóriamente entre
+                sinais de chave {}. <br>
+              • O sinal de dois pontos (:) na declaração, separa a propriedade
+                do seu respectivo valor.
+          </h2>    
+          
+          <br>
+          <br>
+      </div>
+          <br>
+          <br>
+          <br>
+     
 
       <h2 class="h2">Neste caso, o código irá deixar a tag p com 20 pixels de tamanho,
       caso mais uma declaração venha a ser feita, usamos ponto e vírgula (;) para
@@ -118,19 +130,26 @@
       <br>
 
 
-      <h2 class="h2">Sobre o valor, precisamos ressaltar sobre algo muito importante:
-      quando há mais de duas palavras sem hífem (-), utilizamos as aspas (""),
-      caso o valor contenha mais de duas palavras mas são separadas por hífem (-),
-      não são utilizadas aspas ("")
-      </h2>
-      <br>
+     <div id="divCSS">
+            <br>
 
-        <center><img src="imagens da pagina CSS/exemplo CSS.png" alt="exemplo CSS">
-        <img src="imagens da pagina CSS/exemplo CSS (2).png" alt="exemplo CSS (2) "></center>
+            <img id="html5" src="imagens da pagina CSS/exemplo CSS.png">
+            <img id="html5" src="imagens da pagina CSS/exemplo CSS (2).png">
+            <br>
+            <br>
+          <h1 style="text-align: left;">
+              Sobre o valor, precisamos ressaltar sobre algo muito importante: <br>
+              quando há mais de duas palavras sem hífem (-), <br>
+              utilizamos as aspas (""),caso o valor contenha mais de duas palavras mas <br>
+              são separadas por hífem (-),não são utilizadas aspas ("")</h1>
+            <br>
+            <br>
+            <br>
+            <br>      
+    </div>
+    <br>
+    <br>
 
-      <br>
-      <br>
-      <br>
 
       <h1>FOLHAS DE ESTILO</h1>
 
@@ -142,26 +161,45 @@
 
       <br>
 
-      <h2 class="h2"> • Local(inline): É colocado o atributo "style" dentro da tag do elemento de marcação;
-        <br>
-        <br>
-        <img src="imagens da pagina CSS/exemplo CSS local.png" alt="exemplo CSS local">
-        <br> 
-        <br>
-      • Incorporada(embedded): É colocado a tag "style" dentro do elemento "head";
-        <br> 
-        <br>
-        <img src="imagens da pagina CSS/exemplo CSS incorporado.png" alt="exemplo CSS incorporado">
-        <br>
-        <br>
-      • Externa(linked): Em um arquivo externo com extensão ".css" e são "linkadas"
-      por meio de um link no elemento "head", sendo o link: "link rel:stylesheet href:'estilo.css'"
-      (sendo "estilo.css" o nome da pasta do css externo).
-        <br>
-        <br>
-        <img src="imagens da pagina CSS/exemplo CSS externo1.png" alt="exemplo CSS externo 1">
-        <img src="imagens da pagina CSS/exemplo externo CSS 2.png" alt="exemplo CSS externo 2">
-        <img src="imagens da pagina CSS/exemplo externo CSS 3.png" alt="exemplo CSS externo 3">
+      <div id="divCSS">
+            <br>
+            <img id="html5" src="imagens da pagina CSS/exemplo CSS.png">
+            <br>
+          <h1 style="text-align: left;">
+              • Local(inline): É colocado o atributo "style" dentro da tag do elemento de marcação;</h1>
+            <br>
+            <br>
+                 
+      </div>
+      <br>
+      <br>
+      <br>
+
+      <div id="divCSS">
+          <h1 style="text-align: left;">
+              • Incorporada(embedded): É colocado a tag "style" dentro do elemento "head";</h1>
+          <br>
+          <br>
+          <img src="imagens da pagina CSS/exemplo CSS incorporado.png">
+          <br>       
+      </div>
+      <br>
+      <br>
+      <br>
+
+      <div id="divCSS">
+          <h1 style="text-align: left;">
+              • Externa(linked): Em um arquivo externo com extensão ".css" e são "linkadas" <br>
+                por meio de um link no elemento "head", sendo o link: "link rel:stylesheet href:'estilo.css'" <br>
+                (sendo "estilo.css" o nome da pasta do css externo).</h1>
+            <br>
+            <br>
+            <img src="imagens da pagina CSS/exemplo CSS externo1.png" alt="exemplo CSS externo 1">
+            <img src="imagens da pagina CSS/exemplo externo CSS 2.png" alt="exemplo CSS externo 2">
+            <img src="imagens da pagina CSS/exemplo externo CSS 3.png" alt="exemplo CSS externo 3">
+            <br>
+      </div>
+
       </h2></center>
       <br>
 
@@ -173,13 +211,21 @@
                    -> font-style: Define o estilo, como normal,oblique ou italic.<br><br>
                    -> color:Especifica a cor do texto,pode ser aplicada da mesma forma que a representação do padrão RGB e suas diversas possibilidades. <br>
                          💡CASO NÃO LEMBRE VOLTE A PÁGINA DE HTML. <br><br>
-                   -> text-decoration: Permite especificar uma decoração para o texto.
-                                  • Com valores: none, underline, overline, line-through<br>
-                                  (Obs: Mais de 1 valor pode ser usado).<br><br>
-                  <center><img src="imagens da pagina CSS/propriedades de texto CSS.png" width="400px" alt="exemplo de propriedade de texto CSS"></center>
-                  <br>
-                  <br>
-                  <br>
+
+                  
+        <div id="div">
+          <img id="exemplo1css" src="imagens da pagina CSS/propriedades de texto CSS.png">
+
+          <br>
+
+          <h2 class="h2">
+               -> text-decoration: Permite especificar uma decoração para o texto. <br>
+                  • Com valores: none, underline, overline, line-through<br>
+                  (Obs: Mais de 1 valor pode ser usado).
+          </h2>    
+          
+        </div>
+
                    -> text-transform: Controla efeitos de capitalização do texto, com valores: uppercase, lowercase, capitalize. <br><br>
                    -> text-align: Controla o posicionamento horizontal do conteúdo,com valores: left, right, center, justify. <br><br>
                    -> text-indent: Define a identação para  a primeira linha de um texto contida em um bloco. <br><br>
@@ -210,17 +256,43 @@
                                       • top – parte superior<br>
                                       • bottom – parte inferior<br>
                                       • left – lado esquerdo<br>
-                                      • right – lado direito💡<br>
-                            <center><img id="ex-css" src="imagens da pagina CSS/exemplo de borda CSS.png" alt="exemplo de borda CSS"><br> Essa borda é apenas do lado esquerdo do P <br> e terá uma borda verde trascejada.</center>
-                      </h4><br><br>
+                                      • right – lado direito<br>
+
+
+                  <br>
+                  <br>
+                  <div id="div">
+                        <img id="html5" src="imagens da pagina CSS/exemplo de borda CSS.png">
+
+                        <br>
+
+                        <h2 class="h2">
+                                 Essa borda é apenas do lado esquerdo do P <br>
+                                  e terá uma borda verde trascejada.
+                        </h2>    
+          
+                  </div>
+                  <br>
+                  <br>
 
                   <center><h2 class="h2">Agora iremos aprender sobre ID,DIV,PSEUDO-CLASSES</h2>   
-                     <h3>Atributo Id</h3>
-                       <h4>Este atributo tem objetivo de identificar unicamente um elemento.</h4> 
-                              <img src="imagens da pagina CSS/representaçao ID 1.png" width="800px" alt="exemplo da representação do ID."> <br>
-                              <img src="imagens da pagina CSS/Representaçao ID 2.png" width="400px" alt="exemplo da representação do ID no CSS externo">
-
-                     <h3> Qualquer texto que você digitar dentro da tag H6 será definido pelo tamanho da fonte 40px e na cor #995964.</h3><br>
+                     
+                    
+                  <div id="divCSS">
+                    <h1 style="text-align: left;">
+                                • Atributo Id <br>
+                                • Este atributo tem objetivo de identificar unicamente um elemento. <br>
+                                • Qualquer texto que você digitar dentro da tag H6 será <br>
+                                definido pelo tamanho da fonte 40px e na cor #995964.
+                    </h1>
+                    <br>
+                    <br>
+                    <img src="imagens da pagina CSS/representaçao ID 1.png">
+                    <img src="imagens da pagina CSS/Representaçao ID 2.png">
+                    <br>       
+                    </div>
+                    <br>
+                    <br>
 
 
                      <h2 class="h2">Diferentes casos:</h2>

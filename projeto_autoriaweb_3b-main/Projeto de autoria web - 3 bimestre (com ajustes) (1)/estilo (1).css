@@ -157,11 +157,6 @@ h1{
 }
 
 
-#Regracss {
-  font-size: 40px;
-}
-
-
 #exemplo1 {
   font-weight: bold;
   font-size: 40px;
@@ -222,9 +217,6 @@ a {
 IMAGENS
 
 
-
-
-
 #fronteback {
   float: right;
   width: 900px;
@@ -253,10 +245,18 @@ IMAGENS
 #vscode {
   float: right;
   right: 800px;
+  height: 380px;
   padding-right: 20px;
   border-radius: 35px;
 } 
 
+#exemplo1css{
+  float: right;
+  right: 800px;
+  height: 190px;
+  padding-right: 20px;
+  border-radius: 35px;
+}
 
 #html1 {
   float: right;
@@ -286,6 +286,7 @@ IMAGENS
 #html4 {
   float: right;
   width: 740px;
+  height: 420px;
   padding-right: 20px;
   border-radius: 40px;
 }
@@ -296,12 +297,14 @@ IMAGENS
   width: 500px;
   padding-right: 20px;
   border-radius: 45px;
+
 }
 
 
 #formulariohtml {
   float: right;
   width: 650px;
+  height: 580px;
   padding-right: 20px;
   border-radius: 40px;
 }
@@ -318,10 +321,6 @@ IMAGENS
 }
 
 
-#ex-css {
-  width: 600px;
-}
-
 
 #div {
   background-color: #375079;
@@ -337,5 +336,10 @@ IMAGENS
 
 #div2 {
   background-color: #205067;
+  border-radius: 30px;
+}
+
+#divCSS {
+  background-color: #746748;
   border-radius: 30px;
 }
