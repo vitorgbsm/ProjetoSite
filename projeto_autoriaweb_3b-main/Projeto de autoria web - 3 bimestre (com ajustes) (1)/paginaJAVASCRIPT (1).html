@@ -50,77 +50,97 @@
     <h2 class="h2">JavaScript (JS) é uma linguagem de programação popular usada principalmente para adicionar <br>
       interatividade e dinamismo a páginas da web, tornando-as mais do que apenas documentos estáticos.</h2>
       <br>
-    <center><img src="imagens da pagina JAVASCRIPT/simbolo do javascript.png" alt="simbolo JavaScript"></center>
+    <center><img src="imagens da pagina JAVASCRIPT/simbolo do javascript.png" width="300px" alt="simbolo JavaScript"></center>
 
-    <h2 class="h2">O JavaScript é a linguagem que torna a web interativa, 
-      sendo essencial para o desenvolvimento Front-end e, graças ao Node.js, também Back-end.<br>
-    O que é o NODE.JS? <br>
-            • É um ambiente de runtime JavaScript de código aberto e multiplataforma <br>
-            que permite executar código JavaScript fora do navegador, como em servidores. </h2>
-          <br>
-          <br>
-        <center><img src="imagens da pagina JAVASCRIPT/Node.js_logo.svg.png" alt="imagem do NODE.JS"></center>
-        <br>
-        <br>
+    
+    <div id="divCSS">
+            <br>
+            <img id="html5" src="imagens da pagina JAVASCRIPT/Node.js_logo.svg.png">
+            <br>
+          <h1 style="text-align: left;">
+              •O JavaScript é a linguagem que torna a web interativa, sendo <br>
+              essencial para o desenvolvimento Front-end e, graças ao Node.js, também Back-end.<br>
+              •O que é o NODE.JS?<br>
+              • É um ambiente de runtime JavaScript de código aberto e multiplataforma <br>
+              que permite executar código JavaScript fora do navegador, como em servidores.
+          </h1>
+            <br>
+            <br>
+                 
+      </div>
+      <br>
+      <br>
+   
 
     <h2 class="h2">1-Fundamentos da linguagem</h2>
     <h3>Variáveis e Tipos: <br>
-         -> Declaração: Use const (para valores que não mudam) e let (para variáveis que serão reatribuídas). Evite var. <br><br>
+         ⇨ Declaração: Use const (para valores que não mudam) e let (para variáveis que serão reatribuídas). Evite var. <br><br>
 
-         -> Tipos Primitivos: String, Number, Boolean, null, undefined, Symbol. <br><br>
+         ⇨ Tipos Primitivos: String, Number, Boolean, null, undefined, Symbol. <br><br>
 
-         -> Tipos Complexos: Object (que inclui Array e Function). <br><br>
+         ⇨ Tipos Complexos: Object (que inclui Array e Function). <br><br>
 
-         -> Coerção de Tipos: JS é fracamente tipada. Prefira sempre os operadores de comparação estrita (=== e !==) para evitar conversões automáticas inesperadas (que ocorrem com ==). <br><br>
+         ⇨ Coerção de Tipos: JS é fracamente tipada. Prefira sempre os operadores de comparação estrita (=== e !==) para evitar conversões automáticas inesperadas (que ocorrem com ==). <br><br>
 
           Funções: <br><br>
-         -> São blocos de código reutilizáveis. <br><br>
-         -> Arrow Functions (ES6): Sintaxe concisa (const func = () => {}) muito popular, que possui um comportamento lexical diferente para o contexto (this).</h3><br><br>
+         ⇨ São blocos de código reutilizáveis. <br><br>
+         ⇨ Arrow Functions (ES6): Sintaxe concisa (const func = () => {}) muito popular, que possui um comportamento lexical diferente para o contexto (this).</h3><br><br>
          
+    <hr class="trascejada">
+
     <h2 class="h2">2-Estruturas de Dados e Manipulação</h2><br>
     <h3>Arrays: <br>
-         -> Coleções ordenadas.  <br><br>
+         ⇨ Coleções ordenadas.  <br><br>
 
-         -> Métodos Essenciais: <br><br>
+         ⇨ Métodos Essenciais: <br><br>
              • Imutáveis (Funcionais): map() (transforma itens), filter() (seleciona itens), reduce() (combina o array em um único valor). <br>
              • Mutáveis: push(), pop(), splice(). <br>
 
           Objetivos: <br><br>
-         -> Coleções de pares chave-valor, usadas para modelar entidades. <br><br>
-         -> ES6+: Desestruturação (Destructuring) (const { prop } = obj;) e Spread Operator (...) para clonar ou combinar objetos e arrays de forma limpa.</h3>   
+         ⇨ Coleções de pares chave-valor, usadas para modelar entidades. <br><br>
+         ⇨ ES6+: Desestruturação (Destructuring) (const { prop } = obj;) e Spread Operator (...) para clonar ou combinar objetos e arrays de forma limpa.</h3>   
+
+    <hr class="trascejada">
 
     <h2 class="h2">3-Interação com a página (DOM)</h2>
     <h3>O DOM (Document Object Model) é a representação em árvore da página HTML. O JavaScript o utiliza para manipular a interface.<br><br>
           <a href="https://youtu.be/0buVOT-pBtw?si=WolaNkCYVM9ng0CR">APRENDA MAIS SOBRE DOM!</a> <br>
          
-         -> Seleção: document.querySelector() e document.querySelectorAll() são os métodos modernos e mais flexíveis, usando seletores CSS.<br><br>
+         ⇨ Seleção: document.querySelector() e document.querySelectorAll() são os métodos modernos e mais flexíveis, usando seletores CSS.<br><br>
 
-         -> Eventos: A forma de reagir a ações do usuário. Usa-se elemento.addEventListener('click', minhaFuncao).<br><br>
+         ⇨ Eventos: A forma de reagir a ações do usuário. Usa-se elemento.addEventListener('click', minhaFuncao).<br><br>
              
-         -> Manipulação: Alterar o conteúdo (.textContent, .innerHTML), atributos (.setAttribute) e estilos (.style.propriedadeCSS).</h3>   <br>
+         ⇨ Manipulação: Alterar o conteúdo (.textContent, .innerHTML), atributos (.setAttribute) e estilos (.style.propriedadeCSS).</h3>   <br>
+    
+    <hr class="trascejada"> 
 
     <h2 class="h2">4-Assincronicidade(O mais crucial)</h2>
     <h3>Como o JS é single-threaded (executa uma coisa por vez), operações demoradas (como requisições de rede) são executadas de forma assíncrona para evitar travamento da página.<br><br>
-         -> Promises: Objetos que representam o resultado futuro de uma operação (sucesso ou falha). Usam .then() e .catch(). <br><br<
+         ⇨ Promises: Objetos que representam o resultado futuro de uma operação (sucesso ou falha). Usam .then() e .catch(). <br><br>
 
-         -> Async/Await: Sintaxe moderna (açúcar sintático) sobre Promises. Permite escrever código assíncrono que parece síncrono, melhorando a legibilidade. <br><br> 
-             • async function buscaDados() { ... }<br><br>
-             • const dados = await fetch('url');<br>
+         ⇨ Async:Sintaxe moderna (açúcar sintático) sobre Promises. Permite escrever código assíncrono que parece síncrono, melhorando a legibilidade. <br>
+             • async function buscaDados() { ... }<br>
+             • const dados = await fetch('url');</h3><br><br>
 
-         -> Fetch API: O padrão moderno para fazer requisições HTTP e se comunicar com APIs externas.</h3>
-         <br>
-         <br>
-       <center><img src="imagens da pagina JAVASCRIPT/exemplo de assincronicidade.png" alt="exemplo de 4-Assincronicidade"></center>
-       <br>
-       <br>
+
+    <div id="div">
+        <br>
+          <h1> ⇨ Fetch API: O padrão moderno para fazer requisições HTTP e se comunicar com APIs externas.
+            <br>
+            <br>
+              <img src="imagens da pagina JAVASCRIPT/exemplo de assincronicidade.png" alt="exemplo de diferentes casos do ID"><br><br><br> 
+
+    </div>
+  </h1>         
+         
 
     <h2 class="h2">5-Ecossistemas e padrões modernos</h2>
     <h3>
-         -> Módulos (ES Modules): O sistema import / export para estruturar o código em arquivos separados, facilitando a reutilização e manutenção. <br><br>
+         ⇨ Módulos (ES Modules): O sistema import / export para estruturar o código em arquivos separados, facilitando a reutilização e manutenção. <br><br>
 
-         -> Classes: Sintaxe baseada em protótipos (class MinhaClasse {}) para implementar a Programação Orientada a Objetos (POO).<br><br>
+         ⇨ Classes: Sintaxe baseada em protótipos (class MinhaClasse {}) para implementar a Programação Orientada a Objetos (POO).<br><br>
 
-         -> Programação Funcional: Adoção crescente de funções puras e métodos imutáveis (como map, filter, reduce) para criar código mais previsível e fácil de testar.</h3> <br><br><br><br><br><br>  
+         ⇨ Programação Funcional: Adoção crescente de funções puras e métodos imutáveis (como map, filter, reduce) para criar código mais previsível e fácil de testar.</h3> <br><br><br><br><br><br>  
 
       <div>
         <div id="icone2">

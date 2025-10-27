@@ -167,6 +167,13 @@ h4{
   color: white;
 }
 
+.trascejada{
+  border-style: dashed;
+  border-width: 10px;
+  border-color: #dfcfb2;
+  width: 80%;
+}
+
 #imgprincipal{
   width: 100%;
 }
@@ -174,7 +181,8 @@ h4{
 
 h3 {
   color: white;
-  font-size: 35px;
+  font-size: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
